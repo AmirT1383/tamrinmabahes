@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+</head>
+<body>
+
+    <h2>Registration Form</h2>
+
+    <form>
+
+        <label>Full Name:</label>
+        <input type="text" name="fullname">
+        <br><br>
+
+        <label>Last Name:</label>
+        <input type="text" name="lastname">
+        <br><br>
+
+        <label>Age:</label>
+        <input type="number" name="age">
+        <br><br>
+
+        <label>Sex:</label>
+        <input type="radio" name="sex" value="female"> Female
+        <input type="radio" name="sex" value="man"> Man
+        <br><br>
+
+        <label>Gmail:</label>
+        <input type="email" name="gmail">
+        <br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+</body>
+</html>
