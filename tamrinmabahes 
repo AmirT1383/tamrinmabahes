@@ -1,39 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Registration Form</title>
-</head>
+
+<html>
 <body>
 
-    <h2>Registration Form</h2>
+<form>
 
-    <form>
+    <p>
+        Full Name
+        <input type="text">
+    </p>
 
-        <label>Full Name:</label>
-        <input type="text" name="fullname">
-        <br><br>
+    <p>
+        Last Name
+        <input type="text">
+    </p>
 
-        <label>Last Name:</label>
-        <input type="text" name="lastname">
-        <br><br>
+    <p>
+        Age
+        <input type="number">
+    </p>
 
-        <label>Age:</label>
-        <input type="number" name="age">
-        <br><br>
+    <p>
+        Sex
+        <input type="radio" name="sex"> Female
+        <input type="radio" name="sex"> Man
+    </p>
 
-        <label>Sex:</label>
-        <input type="radio" name="sex" value="female"> Female
-        <input type="radio" name="sex" value="man"> Man
-        <br><br>
+    <p>
+        Gmail
+        <input type="email">
+    </p>
 
-        <label>Gmail:</label>
-        <input type="email" name="gmail">
-        <br><br>
+    <p>
+        <button type="button" onclick="alert('Form Submitted!')">
+            Submit
+        </button>
+    </p>
 
-        <button type="submit">Submit</button>
-
-    </form>
+</form>
 
 </body>
 </html>
