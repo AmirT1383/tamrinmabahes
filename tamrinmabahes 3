@@ -1,0 +1,29 @@
+
+<html>
+<head>
+    <title>Color Page</title>
+
+    <style>
+        body {
+            background-color: #333333;
+            text-align: center;
+        }
+
+        h1 {
+            color: red;
+        }
+
+        p {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>تکلیف مباحث ویژه</h1>
+
+    <p>دانشگاه خمینی شهر</p>
+
+</body>
+</html>
