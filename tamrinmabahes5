@@ -1,0 +1,11 @@
+
+<?php
+$product = array(
+    "id" => 1258,
+    "title" => "چیپس فلفلی",
+    "price" => "70000 تومان"
+);
+
+echo $product["title"] . PHP_EOL;
+echo $product["price"] . PHP_EOL;
+?>
