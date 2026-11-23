@@ -1,0 +1,11 @@
+<?php
+$student = array(
+    "نام" => "امیرحسین تقوائی",
+    "سن" => 22,
+    "رشته" => "مهندسی کامپیوتر"
+);
+
+foreach ($student as $key => $value) {
+    echo $key . " : " . $value . "\n";
+}
+?>
